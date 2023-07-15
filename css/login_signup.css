@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('login_signup.png');
+    background-color: white;
+    font-size: 16px;
+}
+
+a:link {
+    color: rgb(235, 165, 14);
+    text-decoration: none;
+}
+
+a:visited,
+a:hover {
+    color: rgb(235, 165, 14);
+    text-decoration: none;
+}
+
+.maindiv {
+    background-color: teal;
+    margin: auto;
+    margin-top: 5%;
+    position: relative;
+    width: 360px;
+    height: 500px;
+    border: 1px solid black;
+    border-radius: 6px;
+    box-shadow: 0 0 10px 3px;
+    text-align: center;
+}
+
+.form-main {
+    position: relative;
+    border: 1px solid black;
+    border-radius: 6px;
+    box-shadow: 0 0 10px 3px;
+    background-color: teal;
+    width: 360px;
+    height: 500px;
+    margin: 70px auto;
+}
+
+.form-div {
+    padding: 32px;
+}
+
+#signup {
+    margin: 0;
+    background-color: rgb(2, 90, 90);
+    width: 100%;
+    padding: 25px 0px;
+    border-radius: 1px;
+    font-size: 27px;
+    text-align: center;
+    color: white;
+}
+
+#logindiv {
+    position: relative;
+    margin: 0;
+    background-color: rgb(2, 90, 90);
+    color: white;
+    width: 100%;
+    padding: 25px 0px;
+    border-radius: 1px;
+    font-size: 27px;
+}
+
+@media(max-width: 450px) {
+    .form-main {
+        border-radius: 2 px;
+        width: 280px;
+        margin: 40px auto;
+    }
+}
+
+@media(max-width: 300px) {
+    .maindiv {
+        margin: 20px auto;
+        width: 220px;
+        height: 500px;
+        border-radius: 2px;
+    }
+    .form-main {
+        border-radius: 2 px;
+        width: 220px;
+        margin: 40px auto;
+    }
+}
